@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name                        : check_postgres.pl
-version                     : 2.21.0
+version                     : 2.24.0
 abstract                    : Postgres monitoring script
 author:              
-  - Greg Sabino Mullane <greg@endpoint.com>
+  - Greg Sabino Mullane <greg@turnstep.com>
 
 license                     : bsd
 distribution_type           : script
@@ -30,7 +30,7 @@ recommends:
 provides:
   check_postgres:
     file                    : check_postgres.pl
-    version                 : 2.21.0
+    version                 : 2.24.0
 
 keywords:
   - Postgres
