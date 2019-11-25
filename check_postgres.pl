@@ -1675,11 +1675,11 @@ GetOptions(
     'filter=s@',            ## used by same_schema only
     'suffix=s',             ## used by same_schema only
     'replace',              ## used by same_schema only
-    'skipsequencevals', ## used by same_schema only
-    'lsfunc=s',    ## used by wal_files and archive_ready
-    'object=s@',     ## used by same_schema for object types to include
-    'skipobject=s@', ## used by same_schema for object types to exclude
-    'skipcycled',  ## used by sequence only
+    'skipsequencevals',     ## used by same_schema only
+    'lsfunc=s',             ## used by wal_files and archive_ready
+    'object=s@',            ## used by same_schema for object types to include
+    'skipobject=s@',        ## used by same_schema for object types to exclude
+    'skipcycled',           ## used by sequence only
     'maxidlemasterdelay=i', ## used by check_replay_delay only
 );
 
